@@ -15,6 +15,7 @@ let name=form.elements["name"].value;
  var l1="https://api.whatsapp.com/send?phone=+91";
  var ans=l1+name;
  Link.href=ans;
+   Link.click();
 }
 
 );
